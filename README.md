@@ -1,16 +1,11 @@
-# florest_animation
+# Player Screen
 
-A new Flutter project.
+Tela de audio player de um aplicativo de meditação - Player screen of a meditation app.
 
-## Getting Started
+# Como usar - How to use:
 
-This project is a starting point for a Flutter application.
+É preciso mudar a url da váriavel 'sourceUrl' sendo o link da musica - You will need to change the variable 'sourceUrl' to a external link of a music.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Images from:
+<a href="https://lovepik.com/images/png-forest-silhouette.html">Forest Silhouette Png vectors by Lovepik.com</a>
+<a href='https://pngtree.com/so/forest'>forest png from pngtree.com/</a>
