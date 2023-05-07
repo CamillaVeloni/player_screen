@@ -15,7 +15,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
 
-  final String sourceUrl = 'songs/music.mp3';
+  final String sourceUrl = 'url song';
   late AudioPlayer _audioPlayer;
   Duration _duration = Duration.zero;
   Duration _position = Duration.zero;
@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
     _audioPlayer.onDurationChanged.listen((Duration d) => setState(() => _duration = d));
     _audioPlayer.onPositionChanged.listen((Duration  p) => setState(() => _position = p));
 
-    _audioPlayer.setSourceAsset(sourceUrl);
+    _audioPlayer.setSourceUrl(sourceUrl);
   }
 
   @override
@@ -46,7 +46,6 @@ class _HomePageState extends State<HomePage> {
       await _audioPlayer.pause();
     } else {
       await _audioPlayer.resume();
-      // await _audioPlayer.play(AssetSource('songs/music.mp3'));
     }
     setState(() {
       _isPlaying = !_isPlaying;
